@@ -1,0 +1,303 @@
+/* Media Query Starts  */
+
+/* ================ Medium Screen ================== */
+@media only screen and (max-width: 1200px){
+	.header_top .container .row .col-md-4 {
+	justify-content: center;
+}
+.search-box input {
+	width: 80%;
+}
+.search-box i {
+	width: 10%;
+	text-align: right;
+}
+.carousel-caption h5 {
+	font-size: 50px;
+}
+.content, .third_content {
+	overflow: scroll;
+	max-height: 450px!important;
+}
+.news-datetime span {
+	font-size: 14px;
+	margin-right: 10px;
+}
+.date{
+	flex-basis: 40%;
+}
+.post-content{
+	flex-basis: 50%;
+}
+.statis-desc p{
+    font-size: 18px!important;
+}
+.statis-number span{
+	font-size: 28px;
+}
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+.search-box i {
+	width: 18%;
+}
+.news-datetime span {
+	font-size: 14px;
+	margin-right: 10px;
+}
+}
+/* ================= Tablet Screen ================ */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.email-box h4,
+.call-box h4 {
+  font-size: 16px;
+}
+.email-box h4 a,
+.call-box h4 a {
+  font-size: 14px;
+}
+.carousel-caption h5 {
+	font-size: 40px;
+}
+.carousel-caption p {
+	font-size: 14px;
+	margin-top: 20px;
+}
+.section-title{
+	margin-bottom: 50px;
+}
+.section-title h2 {
+	font-size: 30px;
+}
+.section-title p{
+	font-size: 14px;
+}
+.post-content h4{
+	font-size: 18px;
+}
+.btn-post{
+	font-size: 14px;
+}
+.single-notice img{
+	width: 25%;
+}
+.notice-content{
+	width: 70%;
+}
+.title-post{
+	gap: 0;
+}
+.date{
+	flex-basis: 30%;
+}
+.date h5{
+	font-size: 20px;
+}
+.post-content{
+	flex-basis: 62%;
+}
+.post-content h4{
+	font-size: 16px;
+}
+}
+/* =============== Mobile Screen ================ */
+@media only screen and (max-width: 767px){
+	body p{
+		font-size: 14px;
+	}
+
+.search-box{
+	margin: 10px 0;
+}
+.status{
+	justify-content: center;
+}
+.btn{
+	font-size: 14px;
+}
+.logo{
+	justify-content: center;
+	margin-bottom: 10px;
+}
+.logo h3{
+	font-size: 24px;
+}
+.email-box h4,
+.call-box h4 {
+  font-size: 16px;
+}
+.email-box h4 a,
+.call-box h4 a {
+  font-size: 14px;
+}
+.btn.donation-link.d-none.btn-box {
+	display: block!important;
+}
+.navbar-nav {
+    position: absolute;
+    z-index: 100;
+    background-color: #fff;
+    width: 100vw;
+    padding: 20px 20px;
+    height: 100vh;
+    transition: var(--transition);
+    left: -28px;
+    top: 100%;
+}
+.donation{
+	display: none;
+}
+.carousel-indicators{
+	display: none;
+}
+.carousel-item img{
+	height: 30vh!important;
+}
+.carousel-caption{
+	width: 56%;
+}
+.carousel-caption h5 {
+	font-size: 40px;
+}
+.carousel-caption p {
+	font-size: 14px;
+	margin-top: 20px;
+}
+.section-title{
+	margin-bottom: 50px;
+}
+.section-title h2 {
+	font-size: 30px;
+}
+.section-title p{
+	font-size: 14px;
+}
+.post-content h4{
+	font-size: 18px;
+}
+.btn-post{
+	font-size: 14px;
+}
+.notice-board .row .col-md-8{
+	margin-bottom: 20px;
+}
+.single-notice img{
+	width: 25%;
+}
+.notice-content{
+	width: 70%;
+}
+.carousel-caption h5 {
+	font-size: 30px;
+}
+.section-title{
+	margin-bottom: 50px;
+}
+.section-title h2 {
+	font-size: 30px;
+}
+.section-title p{
+	font-size: 14px;
+}
+.date{
+	flex-basis: 30%;
+}
+.post-content{
+	flex-basis: 66%;
+}
+.post-content h4{
+	font-size: 18px;
+}
+.btn-post{
+	font-size: 14px;
+}
+.single-notice img{
+	width: 25%;
+}
+.notice-content{
+	width: 70%;
+}
+.header_middle .container .row .col-md-8 {
+	display: none!important;
+}
+.post-slide .slick-arrow i{
+	font-size: 22px;
+}
+.title-post .date{
+	flex: 40%;
+}
+.footer-area .col-md-3{
+	text-align: center;
+}
+.post-banner-area{
+	padding: 20px 0;
+}
+.banner-title h2{
+	font-size: 30px;
+}
+.banner-title p{
+	font-size: 16px;
+}
+.single-news-post{
+	display: block;
+}
+.single-voter-card{
+	width: 100%;
+}
+
+}
+@media only screen and (max-width: 590px){
+	.single-statis {
+		width: 200px;
+		margin: 10px auto;
+	}
+	.voter-img {
+		width: 35%;
+	}
+	.water-mark-img {
+		width: 180px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.single-voter-card {
+		margin: 10px auto;
+	}
+	.voter-card-header {
+		display: block;
+		text-align: center;
+		padding-top: 10px;
+	}
+	.main-voter-info {
+		display: block;
+	}
+	.voter-img {
+		width: 200px;
+		margin: 10px auto;
+	}
+	.voter-info {
+		padding: 20px;
+	}
+	.water-mark-img {
+		width: 180px;
+	}
+}
+/* =================== Small Screen ================= */
+@media only screen and (max-width: 300px){
+.carousel-caption{
+	top: 50%;
+}
+.post_category_title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.post-slide .slick-arrow {
+    left: 30%;
+    transform: translateX(-20%);
+}
+.post-slide button.slick-prev.slick-arrow {
+    margin: 0 10px;
+}
+.post-slide button.slick-next.slick-arrow {
+    margin: 0 60px;
+}
+}

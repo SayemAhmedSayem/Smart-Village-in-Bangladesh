@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website | Know what you want to learn</title>
+  <!-- Bengali Fonts CDN -->
+  <link href="https://fonts.maateen.me/solaiman-lipi/font.css" rel="stylesheet">
+  <!-- FontAwesome CSS -->
+  <link rel="stylesheet" href="assets/plugin/fontawesome/css/all.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Slick Slider CSS -->
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <!-- Magnific Popup CSS -->
+  <link rel="stylesheet" href="assets/css/magnific_popup.css">
+  <!-- Main CSS  -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Responsive CSS -->
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+  <!-- Header Area Starts -->
+  <header>
+    <!-- Header Top -->
+    <section class="header_top bg-dark text-light py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="javascript:void(0)"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="javascript:void(0)"><i class="fa-brands fa-twitter"></i></a>
+            <a href="javascript:void(0)"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="col-md-4 search">
+            <div class="search-box">
+              <form>
+                <input type="text" name="search-area" id="search" placeholder="এখানে খুজুন...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-4 status">
+            <a href="#" class="btn btn-box">লগইন</a>
+            <a href="#" class="btn btn-primary">রেজিস্টার
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header Middle -->
+    <section class="header_middle py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="index.html" class="logo"><i class="fa-solid fa-briefcase"></i>
+              <h3>নতুন আলো
+                <span>শিখুন নতুন কিছু</span>
+              </h3>
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="email-box">
+              <i class="fa-solid fa-envelope"></i>
+              <h4>ইমেইল<a href="mailto:abcd@example.com">abcd@example.com</a></h4>
+
+            </div>
+            <div class="call-box">
+              <i class="fa-solid fa-phone"></i>
+
+              <h4>কল করুন<a href="#">+৮৮০ ১২৩৪ ৫৬৭৮৯</a></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header Bottom -->
+    <section class="header_bottom shadow-sm p-3 bg-body py-2 d-flex justify-content-between">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-8">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" aria-current="page" href="index.html">হোম
+                  </a>
+                  <a class="nav-link" href="about.html">সম্পর্কে
+                  </a>
+                  <div class="dropdown">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      গ্যালারি
+
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="gallery_photo.html">ছবি</a></li>
+                      <li><a class="dropdown-item" href="gallery_video.html">
+                          ভিডিও
+
+                        </a></li>
+
+                    </ul>
+                  </div>
+                  <a class="nav-link" href="contact.html">যোগাযোগ</a>
+                  <a class="nav-link" href="voter_list.html">ভোটার তালিকা
+                  </a>
+                  <div class="dropdown">
+                    <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink2"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      রিলিজ ভার্সন
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
+                      <li><a class="dropdown-item" href="release_version.html">২০২২
+                        </a></li>
+                      <li><a class="dropdown-item" href="release_version.html">২০২১</a></li>
+                      <li><a class="dropdown-item" href="release_version.html">২০২০</a></li>
+                      <li><a class="dropdown-item" href="release_version.html">২০১৯</a></li>
+
+                    </ul>
+
+                  </div>
+                  <a href="#" class="btn donation-link d-none btn-box" data-bs-toggle="modal"
+                    data-bs-target="#donationModal">দান করুন</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+          <div class="col-md-4">
+            <a href="#" class="btn donation btn-box" data-bs-toggle="modal" data-bs-target="#donationModal">দান করুন</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- Header Area Ends -->
+
+  <!--  Modal For Donation -->
+  <div class="modal fade" id="donationModal" tabindex="-1" aria-labelledby="donationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="donationModalLabel">এখনি দান করুন</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="sm-title">
+              <h2>টাকার পরিমাণ</h2>
+            </div>
+            <div class="money-amount">
+              <div class="row">
+                <div class="col">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="amount" id="amount1">
+                    <label class="form-check-label" for="amount1">
+                      ১০০ টাকা
+                    </label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="amount" id="amount2" checked>
+                    <label class="form-check-label" for="amount2">
+                      ৫০০ টাকা
+                    </label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="amount" id="amount3" checked>
+                    <label class="form-check-label" for="amount3">
+                      ১০০০ টাকা
+                    </label>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="amount" id="amount4" checked>
+                    <label class="form-check-label" for="amount4">
+                      ৫০০০ টাকা
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="custom-amount">
+                <label for="customAmount" class="form-label">নির্দিষ্ট পরিমাণ</label>
+                <input type="text" class="form-control" id="customAmount">
+              </div>
+            </div>
+            <div class="billing-address">
+              <div class="sm-title">
+                <h2>বিলিং ঠিকানা</h2>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="cardNo" class="form-label">কার্ড নম্বর</label>
+                    <input type="text" class="form-control" id="cardNo">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="securityCode" class="form-label">সিকিউরিটি কোড</label>
+                    <input type="text" class="form-control" id="securityCode">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="userName" class="form-label">আপনার নাম</label>
+                    <input type="text" class="form-control" id="userName">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="userEmail" class="form-label">ইমেইল</label>
+                    <input type="email" class="form-control" id="userEmail">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="userPhoneNo" class="form-label">ফোন নম্বর</label>
+                    <input type="text" class="form-control" id="userPhoneNo">
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="userAddress" class="form-label">ঠিকানা</label>
+                    <input type="text" class="form-control" id="userAddress">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="CitySelect" class="form-label">শহর</label>
+                    <select class="form-select" id="CitySelect">
+                      <option selected>শহর বাছুন</option>
+                      <option value="1">শহর ১</option>
+                      <option value="2">শহর ২</option>
+                      <option value="3">শহর ৩</option>
+                      <option value="3">শহর ৪</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="mb-3">
+                    <label for="userZipCode" class="form-label">জিপ কোড / পোস্টাল কোড</label>
+                    <input type="text" class="form-control" id="userZipCode">
+                  </div>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">পাঠান</button>
+            </div>
+            <div class="online-payment-info">
+              <div class="sm-title">
+                <h2>আমাদের পেমেন্ট পার্টনার</h2>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <img src="assets/img/payment.png" alt="Payment Image">
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Post Banner Area Starts -->
+  <section class="post-banner-area banner-section" style="background-image: url('assets/img/blog1.jpg');">
+    <div class="container">
+      <div class="banner-title">
+        <h2>আমাদের <span>দানকারীর তালিকা</span></h2>
+        <p class="banner-title-desc">গাইবান্ধার বালাসী থেকে জামালপুরের বাহাদুরাবাদ নৌরুটে এক মাস আগে লঞ্চ পারাপারের
+          ব্যবস্থা চালু হয়। বালাসীঘাটে
+          তিনটি লঞ্চ রয়েছে</p>
+        <p><a href="index.html">হোম</a> <i class="fa fa-angle-right"></i> <a href="about.html">সম্পর্কে</a> <i
+            class="fa fa-angle-right"></i>
+          <span>দানকারীর তালিকা</span>
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Post Banner Area Ends -->
+
+  <!-- Donar List Area Starts -->
+  <section class="donarlist-area">
+    <div class="container">
+      <div class="section-title">
+        <h2>আমাদের দানকারীর তালিকা</h2>
+        <p>উদ্বোধনের পর একটি লঞ্চ বিকল হয়, বাকি দুটি নিয়মিত চলছে না। এ অবস্থায় শ্যালো ইঞ্জিনচালিত নৌকায়
+          ঝুঁকি নিয়ে পারাপার করানো হচ্ছে যাত্রীদের</p>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="sm-title">
+            <h2>ভিআইপি দানকারীর তালিকা</h2>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-hover">
+              <thead class="table-success">
+                <tr>
+                  <th scope="col">ক্রমিক নং</th>
+                  <th scope="col">ছবি</th>
+                  <th scope="col">নাম</th>
+                  <th scope="col">মোবাইল নং</th>
+                  <th scope="col">দানের পরিমান</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">০১</th>
+                  <td><img src="assets/img/01.png" alt="Donar Img"></td>
+                  <td>কামাল উদ্দিন</td>
+                  <td>+৮৮০ ১২৩৪ ৪৫৬৭৮৯</td>
+                  <td>১২০০ টাকা</td>
+                </tr>
+                <tr>
+                  <th scope="row">০২</th>
+                  <td><img src="assets/img/02.png" alt="Donar Img"></td>
+                  <td>জনাব রহিম খান</td>
+                  <td>+৮৮০ ১২৩৪ ৪৫৬৭৮৯</td>
+                  <td>২৪০০ টাকা</td>
+                </tr>
+                <tr>
+                  <th scope="row">০৩</th>
+                  <td><img src="assets/img/03.png" alt="Donar Img"></td>
+                  <td>সালমা খাতুন</td>
+                  <td>+৮৮০ ১২৩৪ ৪৫৬৭৮৯</td>
+                  <td>৮০০ টাকা</td>
+                </tr>
+                <tr>
+                  <th scope="row">০৪</th>
+                  <td><img src="assets/img/04.png" alt="Donar Img"></td>
+                  <td>জামাল হাওলাদার</td>
+                  <td>+৮৮০ ১২৩৪ ৪৫৬৭৮৯</td>
+                  <td>১০০০ টাকা</td>
+                </tr>
+                <tr>
+                  <th scope="row">০৪</th>
+                  <td><img src="assets/img/04.png" alt="Donar Img"></td>
+                  <td>জামাল হাওলাদার</td>
+                  <td>+৮৮০ ১২৩৪ ৪৫৬৭৮৯</td>
+                  <td>১০০০ টাকা</td>
+                </tr>
+                <tr>
+                  <th scope="row">০৪</th>
+                  <td><img src="assets/img/04.png" alt="Donar Img"></td>
+                  <td>জামাল হাওলাদার</td>
+                  <td>+৮৮০ ১২৩৪ ৪৫৬৭৮৯</td>
+                  <td>১০০০ টাকা</td>
+                </tr>
+                <tr>
+                  <th scope="row">০৪</th>
+                  <td><img src="assets/img/04.png" alt="Donar Img"></td>
+                  <td>জামাল হাওলাদার</td>
+                  <td>+৮৮০ ১২৩৪ ৪৫৬৭৮৯</td>
+                  <td>১০০০ টাকা</td>
+                </tr>
+                <tr>
+                  <th scope="row">০৪</th>
+                  <td><img src="assets/img/04.png" alt="Donar Img"></td>
+                  <td>জামাল হাওলাদার</td>
+                  <td>+৮৮০ ১২৩৪ ৪৫৬৭৮৯</td>
+                  <td>১০০০ টাকা</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- Pagination -->
+      <div class="row">
+        <div class="table-pagination py-4">
+          <nav aria-label="voter list">
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a class="page-link" href="#" tabindex="-1">আগের পেইজ</a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">১</a></li>
+              <li class="page-item" aria-current="page">
+                <a class="page-link" href="#">২</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">৩</a></li>
+              <li class="page-item"><a class="page-link" href="#">৪</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">পরের পেইজ</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Donar List Area Ends -->
+
+  <!-- Footer Area Starts -->
+  <footer class="footer-area bg-dark py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="sm-title">
+            <h5>গুরুত্বপূর্ণ লিংক সমূহ</h5>
+            <nav class="nav flex-column">
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ১</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ২</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ৩</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ৪</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ৫</a>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="sm-title">
+            <h5>গুরুত্বপূর্ণ লিংক সমূহ</h5>
+            <nav class="nav flex-column">
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ১</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ২</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ৩</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ৪</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ৫</a>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="sm-title">
+            <h5>গুরুত্বপূর্ণ লিংক সমূহ</h5>
+            <nav class="nav flex-column">
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ১</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ২</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ৩</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ৪</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ৫</a>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="sm-title">
+            <h5>গুরুত্বপূর্ণ লিংক সমূহ</h5>
+            <nav class="nav flex-column">
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ১</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ২</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ৩</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ৪</a>
+              <a class="nav-link" href="#"><i class="fa-solid fa-angle-right"></i>লিংক ৫</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="social-links">
+            <nav class="nav">
+              <a href="#" class="nav-link"><i class="fa-brands fa-facebook-square"></i><span>Facebook Link</span></a>
+              <a href="#" class="nav-link"><i class="fa-brands fa-youtube-square"></i><span>Youtube Link</span></a>
+              <a href="#" class="nav-link"><i class="fa-brands fa-instagram-square"></i><span>Instagram Link</span></a>
+              <a href="#" class="nav-link"><i class="fa-brands fa-twitter-square"></i><span>Twitter Link</span></a>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer-description">
+            <h4>
+              নতুন আলো
+            </h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>&copy; 2022, Design and Developed by Company</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Area Ends -->
+
+
+  <!-- Jquery File Link -->
+  <script src="assets/js/jquery.js"></script>
+  <!-- Slick Slider JS Link -->
+  <script src="assets/js/slick.min.js"></script>
+  <!-- Counter Up Js File Link  -->
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <!-- Magnific Popup Js Link -->
+  <script src="assets/js/magnific_popup.min.js"></script>
+  <!-- Bootstrap Js File Link -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- Main Js -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
