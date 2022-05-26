@@ -88,7 +88,7 @@ img{
 .section-title {
     max-width: 600px;
     min-width: 200px;
-    margin: 0 auto 100px;
+    margin: 62px auto;
 }
 .section-title h2 {
     font-size: 34px;
@@ -116,6 +116,9 @@ img{
 .sm-title {
 	margin: 30px auto;
 	border-bottom: 1px solid var(--grey-color);
+}
+.sm-title h2 span {
+    color: var(--secondary-color);
 }
 .sm-title h3{
     font-size: 24px;
@@ -253,6 +256,14 @@ img{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+.hm_css{
+    border-bottom: 1px solid white;
+    margin-bottom: 19px;
+    padding: 30px;
+}
+.hm_css2{
+    display: contents;
 }
 .logo{
     display: flex;
@@ -435,7 +446,7 @@ img{
 }
 /*================== Post Area CSS ==================*/
 .post-area{
-    padding: 100px 0;
+    padding: 0px 0px 0px 0px;
 }
 .post-area .row{
     margin-bottom: 100px;
@@ -520,7 +531,7 @@ img{
 /* ================= Testimonial CSS ================= */
 .testimonial-area{
     margin-bottom: 40px;
-    padding: 80px 0;
+    padding: 0px 0px 80px 0px;
 }
 .test-slide{
     padding: 20px 0;
@@ -1231,7 +1242,7 @@ p.phone > i{
 	border-radius: 4px;
 	color: var(--white-color);
 	font-weight: bold;
-	width: 100px;
+	width: 165px;
 }
 /*=============== Footer CSS ===============*/
 .footer-area .col-md-3 .sm-title{
@@ -1283,3 +1294,6 @@ p.phone > i{
 .footer-description p:last-child {
     color: grey;
 }
+.credit{color:green;}
+.credit:hover{color:#FF7720;}
+.footer_mg{margin-bottom: 0px !important}
