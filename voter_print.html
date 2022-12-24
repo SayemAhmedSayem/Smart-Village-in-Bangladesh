@@ -1,0 +1,203 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <style>
+        /*================== Reset Code ================== */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        box-shadow: none;
+        border: 0;
+        outline: 0!important;
+    }
+    body{
+       font-family: 'SolaimanLipi', sans-serif;
+        scroll-behavior: smooth;
+        position: relative;
+    }
+
+    img{
+        max-width: 100%;
+        vertical-align: middle;
+    }
+
+    /*================== Variables ================== */
+    :root{
+        --black-color: #333;
+        --grey-color: #ddd;
+        
+
+    }
+
+    /* =============== Voter Card CSS =============== */
+
+    .single-voter-card {
+      width: 600px;
+      background-color: var(--white-color);
+      border: 2px solid var(--black-color);
+      margin-bottom: 20px;
+      min-width: 280px;
+      margin: 0 auto;
+    }
+    .voter-img {
+      margin-bottom: 10px;
+      width: 30%;
+      padding-left: 5px;
+      padding-top: 5px;
+    }
+    .voter-img img {
+      width: 100%;
+    }
+    .voter-card-header-img img {
+        width: 60px;
+    }
+    .voter-card-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 2px solid var(--black-color);
+    }
+    .header-content {
+        text-align: center;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    .voter-card-header-img {
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .header-content h4 {
+        color: var(--black-color);
+    }
+    .header-content p {
+        color: green;
+    }
+    .header-content p:last-child {
+        color: #333;
+    }
+    .header-content p span {
+        color: red;
+    }
+    .header-content h4, .header-content p{
+          margin-bottom: 4px;
+    }
+    .main-voter-info {
+        display: flex;
+        position: relative;
+    }
+    .voter-info {
+        padding-left: 20px;
+        padding-top: 10px;
+        position: relative;
+        z-index: 2;
+    }
+    .voter-info p{
+          margin-bottom: 8px;
+          font-size: 18px!important;
+    }
+    .voter-info .name {
+        font-weight: bold;
+    }
+    .name-title, .name-title-en, .name-title-father, .name-title-mother, .birth-date-title, .id-title {
+        margin-right: 10px;
+    }
+    .name-en {
+        text-transform: uppercase;
+    }
+    .date-birth, .voter-id{
+        color: red;
+    }
+    .water-mark-img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      opacity: 0.3;
+      width: 200px;
+      z-index: -1;
+    }
+
+
+    .voter-card-header1 {
+        display: flex;
+        padding: 15px;
+        justify-content: center;
+    }
+
+
+    .single-voter-card2 {
+        width: 600px;
+        background-color: var(--white-color);
+        margin: 0 auto;
+        margin-bottom: 20px;
+        min-width: 280px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  
+
+  <!-- Voter List Area Starts  -->
+  <section class="voter_list_area">
+    <div class="container-md">
+    
+    
+      <div class="voter-card">
+            
+        <div class="row">
+          <div class="col-12">
+            <div class="single-voter-card2">
+              <div class="voter-card-header1">
+                <div class="voter-print">
+                  <img src="assets/img/UP L3_40x40 22.png" alt="Voter Image">
+                  <p>www.umonpur.info</p>
+                </div>
+                <div class="voter-right">
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <!-- Voter Card Layout -->
+            <div class="single-voter-card">
+              <div class="voter-card-header">
+                <div class="voter-card-header-img">
+                  <img src="assets/img/nid-header-logo.jpg" alt="NID Header">
+                </div>
+                <div class="header-content">
+                  <h4>গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</h4>
+                  <p>Government of the People's Republic of Bangladesh</p>
+                  <p><span>National ID Card</span> / জাতীয় পরিচয় পত্র</p>
+                </div>
+              </div>
+              <div class="main-voter-info">
+                <div class="voter-img">
+                  <img src="assets/img/1.jpg" alt="Voter Image">
+                </div>
+                <div class="voter-info">
+                  <div class="water-mark-img">
+                    <img src="assets/img/water-mark.png" alt="Water Mark">
+                  </div>
+                  
+                  <p><span class="name-title">নাম:</span> <span class="name">কামাল খান</span></p>
+                  <p><span class="name-title-en">Name:</span> <span class="name-en">Kamal Khan</span></p>
+                  <p><span class="name-title-father">পিতা:</span> <span class="name-father">রহিম মিয়া</span></p>
+                  <p><span class="name-title-mother">মাতা:</span> <span class="name-mother">সালমা খাতুন</span></p>
+                  <p><span class="birth-date-title">Date of Birth</span> <span class="date-birth">08 January,
+                      1940</span></p>
+                  <p><span class="id-title">ID NO:</span> <span class="voter-id">474754949493</span></p>
+                  <p style="color:green;font-weight:bold"><span class="name-title">সিরিয়াল নং:</span> <span class="name">০১</span></p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+  </section>
+</body>
+
+</html>
